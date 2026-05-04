@@ -8,7 +8,17 @@ A machine learning-powered web application built using Streamlit that predicts f
 - Real-time input handling  
 - Clean and interactive UI  
 
-## 🛠️ Tech Stack
+## � Screenshots
+### Main Interface
+![Main Interface](screenshots/app_main.png)
+
+### Prediction Result
+![Prediction Result](screenshots/app_prediction.png)
+
+### Model Input Row
+![Model Input Row](screenshots/app_input_row.png)
+
+## �🛠️ Tech Stack
 - Python  
 - Pandas & NumPy  
 - Scikit-learn  
@@ -17,9 +27,17 @@ A machine learning-powered web application built using Streamlit that predicts f
 ## 📂 Project Structure
 Flight_fare_prediction/
 ├── app.py
-├── model.pkl
 ├── requirements.txt
 ├── README.md
+├── models/
+│   └── rd_random.pkl
+├── src/
+│   ├── config.py
+│   ├── preprocess.py
+└── screenshots/
+    ├── app_main.png
+    ├── app_prediction.png
+    └── app_input_row.png
 
 ## ⚙️ Installation & Setup
 
